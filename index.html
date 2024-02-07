@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/libs/css/style.css" />
+  <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css" />
+  <link rel="stylesheet" href="assets/vendor/charts/chartist-bundle/chartist.css" />
+  <link rel="stylesheet" href="assets/vendor/charts/morris-bundle/morris.css" />
+  <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css" />
+  <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css" />
+  <title>HEALTHCARE - home</title>
+  <meta name="robots" content="nindex, nofollow" />
+</head>
+
+<body>
+  <div class="dashboard-main-wrapper">
+    <div class="dashboard-header">
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <a class="navbar-brand" href="#">HEALTHCARE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto navbar-right-top">
+            <li class="nav-item">
+              <div id="custom-search" class="top-search-bar">
+                <input class="form-control" type="text" placeholder="Search.." />
+              </div>
+            </li>
+
+            <li class="nav-item dropdown nav-user">
+              <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"><img
+                  src="https://colorlib.com//polygon/concept/assets/images/avatar-1.jpg" alt
+                  class="user-avatar-md rounded-circle" /></a>
+              <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
+                aria-labelledby="navbarDropdownMenuLink2">
+                <div class="nav-user-info">
+                  <h5 class="mb-0 text-white nav-user-name">John Abraham</h5>
+                </div>
+                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="nav-left-sidebar sidebar-dark">
+      <div class="menu-list">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav flex-column">
+              <li class="nav-divider">Menu</li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
+                  data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Dashboard
+                  <span class="badge badge-success">6</span></a>
+                <div id="submenu-1" class="collapse submenu" style>
+                  <ul class="nav flex-column">
+                    <a class="nav-link" href="index.html">
+                      <li class="nav-item">Home</li>
+                    </a>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-divider">Features</li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2"
+                  aria-controls="submenu-2"><i class="fa fa-fw fa-hospital"></i>Departments</a>
+                <div id="submenu-2" class="collapse submenu" style>
+                  <ul class="nav flex-column" id="deptList">
+                    <i class="fa-solid fa-building-user"></i>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="https://colorlib.com//polygon/concept/pages/cards.html">Cards <span
+                          class="badge badge-primary">50</span></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3"
+                  aria-controls="submenu-3"><i class="fas fa-hourglass-start"></i>Status</a>
+                <div id="submenu-3" class="collapse submenu" style>
+                  <ul class="nav flex-column" id="statusList">
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="https://colorlib.com//polygon/concept/pages/chart-c3.html">C3 Charts</a>
+                    </li> -->
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="dashboard-wrapper">
+      <div class="dashboard-ecommerce">
+        <div class="container-fluid dashboard-content">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="page-header">
+                <h2 class="pageheader-title">HEALTHCARE</h2>
+                <div class="page-breadcrumb">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="#" class="breadcrumb-link">Dashboard</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        Home
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ecommerce-widget">
+
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="card border-3 border-top border-top-primary">
+                  <div class="card-body">
+                    <h5 class="text-muted">Pending Orders</h5>
+                    <div class="metric-value d-inline-block">
+                      <h1 class="mb-1">12099</h1>
+                    </div>
+                    <div class="metric-label d-inline-block float-right text-success font-weight-bold">
+                      <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i
+                          class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">5.86%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="card border-3 border-top border-top-primary">
+                  <div class="card-body">
+                    <h5 class="text-muted">RESUPPLY ITEMS</h5>
+                    <div class="metric-value d-inline-block">
+                      <h1 class="mb-1">1245</h1>
+                    </div>
+                    <div class="metric-label d-inline-block float-right text-success font-weight-bold">
+                      <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i
+                          class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">10%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="card border-3 border-top border-top-primary">
+                  <div class="card-body">
+                    <h5 class="text-muted">CANCELLED ORDERS</h5>
+                    <div class="metric-value d-inline-block">
+                      <h1 class="mb-1">13000</h1>
+                    </div>
+                    <div class="metric-label d-inline-block float-right text-success font-weight-bold">
+                      <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i
+                          class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">5%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="card border-3 border-top border-top-primary">
+                  <div class="card-body">
+                    <h5 class="text-muted">COMPLETED</h5>
+                    <div class="metric-value d-inline-block">
+                      <h1 class="mb-1">1340</h1>
+                    </div>
+                    <div class="metric-label d-inline-block float-right text-danger font-weight-bold">
+                      <span class="icon-circle-small icon-box-xs text-danger bg-danger-light bg-danger-light"><i
+                          class="fa fa-fw fa-arrow-down"></i></span><span class="ml-1">4%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <h5 class="card-header">Intake Department</h5>
+                  <div class="card-body p-0">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead class="bg-light">
+                          <tr class="border-0">
+                            <th class="border-0">No.</th>
+                            <th class="border-0">PT Name</th>
+                            <th class="border-0">Item</th>
+                            <th class="border-0">DR OFFICE NAME</th>
+                            <th class="border-0">DOB</th>
+                            <th class="border-0">LOCATION</th>
+                            <th class="border-0">INSURANCE</th>
+                            <th class="border-0">Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>DOROTHY MORTON</td>
+                            <td>KNEE BRACE</td>
+                            <td>HEALTHCARE DME</td>
+                            <td>02-29-1993</td>
+                            <td>ANN ARBOR</td>
+                            <td>MEDICARE</td>
+                            <td>
+                              <span class="badge-dot badge-brand mr-1"></span>Pending
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>DOROTHY MORTON</td>
+                            <td>KNEE BRACE</td>
+                            <td>HEALTHCARE DME</td>
+                            <td>02-29-1993</td>
+                            <td>ANN ARBOR</td>
+                            <td>MEDICARE</td>
+                            <td>
+                              <span class="badge-dot badge-brand mr-1"></span>Pending
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>DOROTHY MORTON</td>
+                            <td>KNEE BRACE</td>
+                            <td>HEALTHCARE DME</td>
+                            <td>02-29-1993</td>
+                            <td>ANN ARBOR</td>
+                            <td>MEDICARE</td>
+                            <td>
+                              <span class="badge-dot badge-brand mr-1"></span>Pending
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>DOROTHY MORTON</td>
+                            <td>KNEE BRACE</td>
+                            <td>HEALTHCARE DME</td>
+                            <td>02-29-1993</td>
+                            <td>ANN ARBOR</td>
+                            <td>MEDICARE</td>
+                            <td>
+                              <span class="badge-dot badge-brand mr-1"></span>Pending
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>DOROTHY MORTON</td>
+                            <td>KNEE BRACE</td>
+                            <td>HEALTHCARE DME</td>
+                            <td>02-29-1993</td>
+                            <td>ANN ARBOR</td>
+                            <td>MEDICARE</td>
+                            <td>
+                              <span class="badge-dot badge-brand mr-1"></span>Pending
+                            </td>
+                          </tr>
+                          <tr>
+                            <td colspan="9">
+                              <a href="#" class="btn btn-outline-light float-right">View Details</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <h5 class="card-header">Pending Orders</h5>
+                  <div class="card-body p-0">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead class="bg-light">
+                          <tr class="border-0">
+                            <th class="border-0">No.</th>
+                            <th class="border-0">PT Name</th>
+                            <th class="border-0">Item</th>
+                            <th class="border-0">DR OFFICE NAME</th>
+                            <th class="border-0">DOB</th>
+                            <th class="border-0">LOCATION</th>
+                            <th class="border-0">INSURANCE</th>
+                            <th class="border-0">Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>DOROTHY MORTON</td>
+                            <td>KNEE BRACE</td>
+                            <td>HEALTHCARE DME</td>
+                            <td>02-29-1993</td>
+                            <td>ANN ARBOR</td>
+                            <td>MEDICARE</td>
+                            <td>
+                              <span class="badge-dot badge-brand mr-1"></span>Pending
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td colspan="9">
+                              <a href="#" class="btn btn-outline-light float-right">View Details</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+              Created by <a target="_blank" href="farhanatif.netlify.app">M.Farhan Atif</a> with <i class="fa fa-heart"></i>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="text-md-right footer-links d-none d-sm-block">
+                <!-- <a href="javascript: void(0);">About</a>
+                <a href="javascript: void(0);">Support</a>
+                <a href="javascript: void(0);">Contact Us</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/libs/js/main-js.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/morris-bundle/morris.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/c3charts/c3.min.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/vendor/charts/c3charts/C3chartjs.js"></script>
+  <script src="https://colorlib.com//polygon/concept/assets/libs/js/dashboard-ecommerce.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+</body>
+
+</html>
+<script>
+  const deptList = document.getElementById("deptList");
+  const statList = document.getElementById("statusList");
+  for (let i = 0; i <= 4; i++) {
+    deptList.innerHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="departments.html">
+          Department ${i + 1} <span class="badge badge-primary">${i * 5}</span>
+        </a>
+      </li>
+    `;
+  }
+
+  for (let i = 0; i <= 4; i++) {
+    statList.innerHTML += `
+    <li class="nav-item">
+      <a class="nav-link" href="#">Pending ${i + 1
+      } <span class="badge badge-danger">${i * 5}</span> </a>
+    </li>
+    `;
+  }
+</script>

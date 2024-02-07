@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <title>HEALTHCARE - Billing Department</title>
+</head>
+
+<body>
+
+
+
+    <div class="dashboard-main-wrapper">
+
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="#">HEALTHCARE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search.." />
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                    src="https://colorlib.com//polygon/concept/assets/images/avatar-1.jpg" alt
+                                    class="user-avatar-md rounded-circle" /></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
+                                aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">John Abraham</h5>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">Menu</li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-1" aria-controls="submenu-1"><i
+                                        class="fa fa-fw fa-user-circle"></i>Dashboard
+                                    <span class="badge badge-success">6</span></a>
+                                <div id="submenu-1" class="collapse submenu" style>
+                                    <ul class="nav flex-column">
+                                        <a class="nav-link" href="index.html">
+                                            <li class="nav-item">Home</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-divider">Features</li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-2" aria-controls="submenu-2"><i
+                                        class="fa fa-fw fa-hospital"></i>Departments</a>
+                                <div id="submenu-2" class="collapse submenu" style>
+                                    <ul class="nav flex-column" id="deptList">
+                                        <i class="fa-solid fa-building-user"></i>
+                                        <!-- <li class="nav-item">
+                      <a class="nav-link" href="https://colorlib.com//polygon/concept/pages/cards.html">Cards <span
+                          class="badge badge-primary">50</span></a>
+                    </li> -->
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-3" aria-controls="submenu-3"><i
+                                        class="fas fa-hourglass-start"></i>Status</a>
+                                <div id="submenu-3" class="collapse submenu" style>
+                                    <ul class="nav flex-column" id="statusList">
+                                        <!-- <li class="nav-item">
+                      <a class="nav-link" href="https://colorlib.com//polygon/concept/pages/chart-c3.html">C3 Charts</a>
+                    </li> -->
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">BILLING DEPARTMENT</h2>
+                                <div class="page-breadcrumb">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item">
+                                                <a href="#" class="breadcrumb-link">DEPARTMENTS</a>
+                                            </li>
+                                            <li class="breadcrumb-item">
+                                                <a href="#" class="breadcrumb-link">BILLING DEPARTMENTS</a>
+                                            </li>
+                                            <li class="breadcrumb-item active" aria-current="page">
+                                                BILLING
+                                            </li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="row">
+
+                                <div class="col pl-lg-0 pl-md-0 border-left m-b-30">
+                                    <div class="product-details">
+                                        <div class="border-bottom pb-3 mb-3">
+                                            <h2 class="mb-3">Patient Details </h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">PATIENT NAME</h4>
+                                                <p class="mb-0 ml-2">: DOROTHY MORTON</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">ITEM</h4>
+                                                <p class="mb-0 ml-2">: LYMPHEDEMA PUMP</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">PATIENT DOB</h4>
+                                                <p class="mb-0 ml-2">: 06-09-1975</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">PATIENT ADDRESS</h4>
+                                                <p class="mb-0 ml-2">: 2911 CARPENTER RD,</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">PATIENT INSURANCE</h4>
+                                                <p class="mb-0 ml-2">: MEDICARE</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">ORDER #</h4>
+                                                <p class="mb-0 ml-2">: 0011192</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">DR OFFICE</h4>
+                                                <p class="mb-0 ml-2">: OAK STREET</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">DR OFFICE PHONE NO</h4>
+                                                <p class="mb-0 ml-2">: (734) 975 6666</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center">
+                                                <h4 class="mb-0">DR OFFICE FAX NO</h4>
+                                                <p class="mb-0 ml-2">: (734) 975 6666</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-size border-bottom">
+
+                                        </div>
+                                        <div class="product-description">
+                                            <div class="row">
+                                                <div class="col">
+
+                                                    <a href="#" class="btn btn-primary btn-block btn-lg">Add Notes</a>
+                                                </div>
+                                                <div class="col">
+
+                                                    <a href="#" class="btn btn-primary btn-block btn-lg">See All Notes</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-b-60">
+                                    <div class="simple-card">
+                                        <ul class="nav nav-tabs" id="myTab5" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active border-left-0" id="product-tab-1"
+                                                    data-toggle="tab" href="#tab-1" role="tab"
+                                                    aria-controls="product-tab-1" aria-selected="true">History</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="product-tab-2" data-toggle="tab" href="#tab-2"
+                                                    role="tab" aria-controls="product-tab-2"
+                                                    aria-selected="false">Change Status OR Department</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content" id="myTabContent5">
+                                            <div class="tab-pane fade show active" id="tab-1" role="tabpanel"
+                                                aria-labelledby="product-tab-1">
+                                                <p>Praesent et cursus quam. Etiam vulputate est et metus pellentesque
+                                                    iaculis. Suspendisse nec urna augue. Vestibulum ante ipsum primis in
+                                                    faucibus orci luctus et ultrices posuere cubiliaurae.</p>
+                                                <p>Nam condimentum erat aliquet rutrum fringilla. Suspendisse potenti.
+                                                    Vestibulum placerat elementum sollicitudin. Aliquam consequat
+                                                    molestie tortor, et dignissim quam blandit nec. Donec tincidunt dui
+                                                    libero, ac convallis urna dapibus eu. Praesent volutpat mi eget diam
+                                                    efficitur, a mollis quam ultricies. Morbi eu turpis odio.</p>
+                                                <ul class="list-unstyled arrow">
+                                                    <li>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Donec ut elit sodales, dignissim elit et, sollicitudin nulla.
+                                                    </li>
+                                                    <li>Donec at leo sed nisl vestibulum fermentum.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-2" role="tabpanel"
+                                                aria-labelledby="product-tab-2">
+                                                <form>
+                                                    <div class="row mb-3">
+                                                      <label for="inputEmail3" class="col-sm-3 col-form-label">Order Status</label>
+                                                      <div class="col-sm-9">
+                                                        <div class="form-group">
+                                                            <select class="form-control form-control-sm">
+                                                                <option selected disabled>Pending</option>
+                                                                <option>Pending1</option>
+                                                                <option>Pending2</option>
+                                                                <option>Pending3</option>
+                                                            </select>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                      <label for="inputPassword3" class="col-sm-3 col-form-label">Department</label>
+                                                      <div class="col-sm-9">
+                                                        <div class="form-group">
+                                                            <select class="form-control form-control-sm">
+                                                                <option selected disabled>ER Department</option>
+                                                                <option>Department1</option>
+                                                                <option>Department2</option>
+                                                                <option>Department3</option>
+                                                            </select>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                                  </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                Created by <a target="_blank" href="farhanatif.netlify.app">M.Farhan Atif</a> with <i
+                                    class="fa fa-heart"></i>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="text-md-right footer-links d-none d-sm-block">
+                                    <!-- <a href="javascript: void(0);">About</a>
+                    <a href="javascript: void(0);">Support</a>
+                    <a href="javascript: void(0);">Contact Us</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://colorlib.com//polygon/concept/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+
+    <script src="https://colorlib.com//polygon/concept/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script src="https://colorlib.com//polygon/concept/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+
+    <script src="https://colorlib.com//polygon/concept/assets/libs/js/main-js.js"></script>
+    <script>
+        jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
+        jQuery('.quantity').each(function () {
+            var spinner = jQuery(this),
+                input = spinner.find('input[type="number"]'),
+                btnUp = spinner.find('.quantity-up'),
+                btnDown = spinner.find('.quantity-down'),
+                min = input.attr('min'),
+                max = input.attr('max');
+
+            btnUp.click(function () {
+                var oldValue = parseFloat(input.val());
+                if (oldValue >= max) {
+                    var newVal = oldValue;
+                } else {
+                    var newVal = oldValue + 1;
+                }
+                spinner.find("input").val(newVal);
+                spinner.find("input").trigger("change");
+            });
+
+            btnDown.click(function () {
+                var oldValue = parseFloat(input.val());
+                if (oldValue <= min) {
+                    var newVal = oldValue;
+                } else {
+                    var newVal = oldValue - 1;
+                }
+                spinner.find("input").val(newVal);
+                spinner.find("input").trigger("change");
+            });
+
+        });
+    </script>
+
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+    const deptList = document.getElementById("deptList");
+    const statList = document.getElementById("statusList");
+    for (let i = 0; i <= 4; i++) {
+        deptList.innerHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="departments.html">
+          Department ${i + 1} <span class="badge badge-primary">${i * 5}</span>
+        </a>
+      </li>
+    `;
+    }
+
+    for (let i = 0; i <= 4; i++) {
+        statList.innerHTML += `
+    <li class="nav-item">
+      <a class="nav-link" href="https://colorlib.com//polygon/concept/pages/chart-c3.html">Pending ${i + 1
+            } <span class="badge badge-danger">${i * 5}</span> </a>
+    </li>
+    `;
+    }
+</script>
